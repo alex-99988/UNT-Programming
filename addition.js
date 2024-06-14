@@ -5,25 +5,21 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     var question2 = document.getElementById('question2').value;
     var question3 = document.getElementById('question3').value;
     var question5 = document.getElementById('question5').value;
-    var address = document.getElementsByName('address')[0].value;
-    var gender = document.querySelector('input[name="question4"]:checked').value;
+    var question4 = document.querySelector('input[name="question4"]:checked').value;
 
-    console.log('Date of Submission:', question1);
-    console.log('First Name:', question2);
-    console.log('Last Name:', question3);
-    console.log('Birthday:', question5);
-    console.log('Address:', address);
-    console.log('Gender:', gender);
+    console.log('Question 1:', question1);
+    console.log('Question 2:', question2);
+    console.log('Question 3:', question3);
+    console.log('Question 4:', question4);
+    console.log('Question 5:', question5);
 
     alert('Form submitted with the following data:\n' +
-          'Date of Submission: ' + question1 + '\n' +
-          'First Name: ' + question2 + '\n' +
-          'Last Name: ' + question3 + '\n' +
-          'Birthday: ' + question5 + '\n' +
-          'Address: ' + address + '\n' +
-          'Gender: ' + gender);
+          'Question 1: ' + question1 + '\n' +
+          'Question 2: ' + question2 + '\n' +
+          'Question 3: ' + question3 + '\n' +
+          'Question 4: ' + question4 + '\n' +
+          'Question 5: ' + question5);
 });
-
 
 
 

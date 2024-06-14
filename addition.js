@@ -12,12 +12,14 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     console.log('Question 3:', question3);
     console.log('Question 4:', question4);
     console.log('Question 5:', question5);
-    if(question1 = 2) score ++1;
-    if(question2 = 4) score ++1;
-    if(question3 = 3) score ++1;
-    if(question4 = radio2) score ++1;
-    if(question5 = 19) score ++1;
-    
+
+    var score = 0; // Initialize score variable
+
+    if (question1 == 2) score++;
+    if (question2 == 4) score++;
+    if (question3 == 3) score++;
+    if (question4 == '20') score++; // Compare the value of question4
+    if (question5 == 18) score++; // Corrected the answer to match 14 + 4
 
     alert('Form submitted with the following data:\n' +
           'Question 1: ' + question1 + '\n' +
@@ -25,10 +27,8 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
           'Question 3: ' + question3 + '\n' +
           'Question 4: ' + question4 + '\n' +
           'Question 5: ' + question5 + '\n' +
-          score;
-    
+          'Score: ' + score); // Display the score correctly
 });
-
 
 
 

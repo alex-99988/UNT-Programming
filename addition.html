@@ -1,2 +1,56 @@
+<!DOCTYPE html>
+<head>
+<style>
+    label{
+    display: block;
+    }
+    fieldset{
+        border: 2px solid;
+        padding:10px;
+        margin: 0;
+    }
+    body{
+        font-family: sans-serif;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    legend{
+        font-weight: bold;
+    }
+    form{
+        width:270px;
+        padding:20px;
+        background-color:rgba(0, 4, 255, 0.70);
+        border-radius: 10px;
+        box-shadow: 0 0 20px;
+    }
+</style>
+</head>
 <html>
+<body>
+<form>
+<fieldset>
+<legend>User personal info</legend>
+<label>Enter the date of submission:</label>
+<input type="date" name="date"/>
+<label>Enter your first name:</label>
+<input type="text" name="name"/>
+<label>Enter your last name:</label>
+<input type="text" name="lastname"/>
+<label>Enter your email:</label>
+<input type="email" name="email"/>
+<label>Enter your gender:</label>
+<input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+<input type="radio" name="gender" value="other"/>Other
+<label>Enter your birthday:</label>
+<input type="date" name="data"/>
+<label>Enter your home address:</label>
+<textarea name="address"></textarea>
+<input type="Submit" value="Submit">
+</fieldset> 
+</form>
+</body>
 </html>

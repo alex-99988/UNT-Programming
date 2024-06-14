@@ -15,11 +15,11 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
 
     var score = 0; // Initialize score variable
 
-    if (question1 == 2) score++;
-    if (question2 == 4) score++;
-    if (question3 == 3) score++;
-    if (question4 == '20') score++; // Compare the value of question4
-    if (question5 == 18) score++; // Corrected the answer to match 14 + 4
+    if (parseInt(question1) === 2) score++;
+    if (parseInt(question2) === 4) score++;
+    if (parseInt(question3) === 3) score++;
+    if (question4 === '20') score++; // Compare the value of question4
+    if (parseInt(question5) === 18) score++; // Corrected the answer to match 14 + 4
 
     alert('Form submitted with the following data:\n' +
           'Question 1: ' + question1 + '\n' +
@@ -29,7 +29,6 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
           'Question 5: ' + question5 + '\n' +
           'Score: ' + score); // Display the score correctly
 });
-
 
 
 

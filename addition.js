@@ -14,8 +14,10 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     console.log('Question 5:', question5);
     if(question1 = 2) score ++1;
     if(question2 = 4) score ++1;
-    if(question3 = radio2) score ++1;
-    if(question4 = 19) score ++1;
+    if(question3 = 3) score ++1;
+    if(question4 = radio2) score ++1;
+    if(question5 = 19) score ++1;
+    
 
     alert('Form submitted with the following data:\n' +
           'Question 1: ' + question1 + '\n' +

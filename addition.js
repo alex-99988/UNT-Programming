@@ -22,7 +22,9 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
           'Question 2: ' + question2 + '\n' +
           'Question 3: ' + question3 + '\n' +
           'Question 4: ' + question4 + '\n' +
-          'Question 5: ' + question5);
+          'Question 5: ' + question5 + '\n' +
+          score;
+    
 });
 
 

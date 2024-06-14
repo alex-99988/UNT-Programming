@@ -1,25 +1,15 @@
 label{
-    display: block;
+    
     }
     fieldset{
-        border: 2px solid;
-        padding:10px;
-        margin: 0;
+
     }
     body{
-        font-family: sans-serif;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        padding: 15px;
+
     }
     legend{
-        font-weight: bold;
+
     }
     form{
-        width:270px;
-        padding:20px;
-        background-color:rgba(0, 4, 6, 0.70);
-        border-radius: 10px;
-        box-shadow: 0 0 20px;
+
     }

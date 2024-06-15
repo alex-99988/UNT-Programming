@@ -12,7 +12,7 @@
     if (parseInt(question1) === 4) score++;
     if (parseInt(question2) === 18) score++;
     if (parseInt(question3) === 20) score++;
-    if (question4 === 45) score++; // Compare the value of question4
+    if (question4 === '45') score++; // Compare the value of question4
     if (parseInt(question5) === 24) score++; // Corrected the answer to match 14 + 4
 
     alert('Form submitted with the following data:\n' +

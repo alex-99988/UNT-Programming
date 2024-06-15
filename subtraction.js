@@ -1,5 +1,5 @@
-document.getElementById('userForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+//document.getElementById('userForm').addEventListener('submit', function(event) {
+    //event.preventDefault();
 
     var question1 = document.getElementById('question1').value;
     var question2 = document.getElementById('question2').value;

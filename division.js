@@ -7,12 +7,6 @@
     var question5 = document.getElementById('question5').value;
     var question4 = document.querySelector('input[name="question4"]:checked').value;
 
-    console.log('Question 1:', question1);
-    console.log('Question 2:', question2);
-    console.log('Question 3:', question3);
-    console.log('Question 4:', question4);
-    console.log('Question 5:', question5);
-
     var score = 0; // Initialize score variable
 
     if (parseInt(question1) === 1) score++;

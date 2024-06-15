@@ -7,18 +7,12 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     var question5 = document.getElementById('question5').value;
     var question4 = document.querySelector('input[name="question4"]:checked').value;
 
-    console.log('Question 1:', question1);
-    console.log('Question 2:', question2);
-    console.log('Question 3:', question3);
-    console.log('Question 4:', question4);
-    console.log('Question 5:', question5);
-
     var score = 0; // Initialize score variable
 
     if (parseInt(question1) === 4) score++;
     if (parseInt(question2) === 18) score++;
     if (parseInt(question3) === 20) score++;
-    if (question4 === '45') score++; // Compare the value of question4
+    if (question4 === 45) score++; // Compare the value of question4
     if (parseInt(question5) === 24) score++; // Corrected the answer to match 14 + 4
 
     alert('Form submitted with the following data:\n' +

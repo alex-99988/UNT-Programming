@@ -18,7 +18,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     if (parseInt(question1) === 1) score++;
     if (parseInt(question2) === 2) score++;
     if (parseInt(question3) === 3) score++;
-    if (question4 === '20') score++; // Compare the value of question4
+    if (question4 === '5') score++; // Compare the value of question4
     if (parseInt(question5) === 2) score++; // Corrected the answer to match 14 + 4
 
     alert('Form submitted with the following data:\n' +
